@@ -1,6 +1,11 @@
+@font-face {
+  font-family: "starcraft";
+  src: url('../fonts/Starcraft%20Normal.ttf');
+}
+
 body {
+  font-family: "starcraft";
   padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
 }
 
 a {

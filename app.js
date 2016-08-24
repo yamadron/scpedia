@@ -9,7 +9,6 @@ var routes = require('./routes/index');
 var units = require('./routes/units');
 var races = require('./routes/races');
 var characters = require('./routes/characters');
-var users = require('./routes/users');
 
 var unit = require('./models/unit.js');
 var race = require('./models/race.js');
@@ -43,7 +42,6 @@ app.use('/', routes);
 app.use('/units', units);
 app.use('/races', races);
 app.use('/characters', characters);
-app.use('/users', users);
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
